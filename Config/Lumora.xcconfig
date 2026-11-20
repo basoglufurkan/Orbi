@@ -1,0 +1,9 @@
+// Build settings for the Orbi app target, in Debug and Release.
+//
+// Service keys aren't in the repository. Copy Secrets.example.xcconfig to
+// Secrets.xcconfig (ignored by git) and fill it in. Without it the app builds
+// and runs as usual; Orbi+ purchases stay off.
+
+REVENUECAT_API_KEY =
+
+#include? "Secrets.xcconfig"

@@ -1,0 +1,1343 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		042824C18036A41CF45A9681 /* WatchViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33EB114AED90F41116F49EFF /* WatchViews.swift */; };
+		0ADF2ABF6580BEC19254EBCE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FC80B6C3A9950133E113794 /* Foundation.framework */; };
+		4C0000000000000000000060 /* LumoraWidgetsExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 4C0000000000000000000021 /* LumoraWidgetsExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		5D0100000000000000000012 /* LumoraShieldMonitor.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 5D0100000000000000000001 /* LumoraShieldMonitor.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		5D0200000000000000000012 /* LumoraShieldConfiguration.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 5D0200000000000000000001 /* LumoraShieldConfiguration.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		5D0300000000000000000012 /* LumoraShieldAction.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 5D0300000000000000000001 /* LumoraShieldAction.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		7E0100000000000000000001 /* RevenueCat in Frameworks */ = {isa = PBXBuildFile; productRef = 7E0100000000000000000002 /* RevenueCat */; };
+		7E0200000000000000000001 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 7E0200000000000000000002 /* FirebaseCore */; };
+		7E0200000000000000000005 /* FirebaseAnalyticsCore in Frameworks */ = {isa = PBXBuildFile; productRef = 7E0200000000000000000004 /* FirebaseAnalyticsCore */; };
+		93C0188FD7C6380CDBA68F70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 879361EE822695ACD52D5C78 /* Assets.xcassets */; };
+		94C29DE7B91D8162A8B7FEDF /* LumoraWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 7C415618FCAC02FA66C567D2 /* LumoraWatch.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		9DD1E7077CD7BD3543D8AC7F /* WatchKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AD089FE1E74B3E7BB25B53 /* WatchKeys.swift */; };
+		B0BFA57E4CD790FC9E594A93 /* LumoraWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E09BA048BAE3C3395C94FA /* LumoraWatchApp.swift */; };
+		CA13ACC8556B5F8A85A42D25 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = C330410B958B97EA2082FC07 /* Localizable.xcstrings */; };
+		CBB9F435293F7685FD832315 /* WatchSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01EECEA4884EF9A70E8F8EB5 /* WatchSession.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4C0000000000000000000070 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C0000000000000000000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C0000000000000000000041;
+			remoteInfo = LumoraWidgetsExtension;
+		};
+		4C0000000000000000000071 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C0000000000000000000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C0000000000000000000040;
+			remoteInfo = Lumora;
+		};
+		4C0000000000000000000072 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C0000000000000000000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C0000000000000000000040;
+			remoteInfo = Lumora;
+		};
+		5D0100000000000000000010 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C0000000000000000000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D0100000000000000000006;
+			remoteInfo = LumoraShieldMonitor;
+		};
+		5D0200000000000000000010 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C0000000000000000000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D0200000000000000000006;
+			remoteInfo = LumoraShieldConfiguration;
+		};
+		5D0300000000000000000010 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C0000000000000000000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D0300000000000000000006;
+			remoteInfo = LumoraShieldAction;
+		};
+		8E6CD6D2C3152AD4A237DA17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C0000000000000000000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 589064B5E742B22B23EB0DAD;
+			remoteInfo = LumoraWatch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4A601CEC6CD98AD111FFE985 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				94C29DE7B91D8162A8B7FEDF /* LumoraWatch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C0000000000000000000053 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				4C0000000000000000000060 /* LumoraWidgetsExtension.appex in Embed Foundation Extensions */,
+				5D0300000000000000000012 /* LumoraShieldAction.appex in Embed Foundation Extensions */,
+				5D0200000000000000000012 /* LumoraShieldConfiguration.appex in Embed Foundation Extensions */,
+				5D0100000000000000000012 /* LumoraShieldMonitor.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		01EECEA4884EF9A70E8F8EB5 /* WatchSession.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WatchSession.swift; sourceTree = "<group>"; };
+		16E09BA048BAE3C3395C94FA /* LumoraWatchApp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LumoraWatchApp.swift; sourceTree = "<group>"; };
+		18AD089FE1E74B3E7BB25B53 /* WatchKeys.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WatchKeys.swift; sourceTree = "<group>"; };
+		33EB114AED90F41116F49EFF /* WatchViews.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WatchViews.swift; sourceTree = "<group>"; };
+		4C0000000000000000000020 /* Lumora.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lumora.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C0000000000000000000021 /* LumoraWidgetsExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = LumoraWidgetsExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C0000000000000000000022 /* LumoraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LumoraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C0000000000000000000023 /* LumoraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LumoraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C0000000000000000000030 /* Lumora-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Lumora-Info.plist"; sourceTree = "<group>"; };
+		4C0000000000000000000031 /* LumoraWidgets-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LumoraWidgets-Info.plist"; sourceTree = "<group>"; };
+		4C0000000000000000000032 /* Lumora.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Lumora.entitlements; sourceTree = "<group>"; };
+		4C0000000000000000000034 /* Lumora.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Lumora.xcconfig; sourceTree = "<group>"; };
+		4C0000000000000000000035 /* Secrets.example.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Secrets.example.xcconfig; sourceTree = "<group>"; };
+		4C0000000000000000000033 /* LumoraWidgets.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LumoraWidgets.entitlements; sourceTree = "<group>"; };
+		5D0000000000000000000014 /* LumoraShield.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LumoraShield.entitlements; sourceTree = "<group>"; };
+		5D0100000000000000000001 /* LumoraShieldMonitor.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = LumoraShieldMonitor.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D0100000000000000000013 /* LumoraShieldMonitor-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LumoraShieldMonitor-Info.plist"; sourceTree = "<group>"; };
+		5D0200000000000000000001 /* LumoraShieldConfiguration.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = LumoraShieldConfiguration.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D0200000000000000000013 /* LumoraShieldConfiguration-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LumoraShieldConfiguration-Info.plist"; sourceTree = "<group>"; };
+		5D0300000000000000000001 /* LumoraShieldAction.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = LumoraShieldAction.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D0300000000000000000013 /* LumoraShieldAction-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LumoraShieldAction-Info.plist"; sourceTree = "<group>"; };
+		6FC80B6C3A9950133E113794 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS26.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7C415618FCAC02FA66C567D2 /* LumoraWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LumoraWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		879361EE822695ACD52D5C78 /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C330410B958B97EA2082FC07 /* Localizable.xcstrings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		4C0000000000000000000010 /* Lumora */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Lumora;
+			sourceTree = "<group>";
+		};
+		4C0000000000000000000011 /* Shared */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		4C0000000000000000000012 /* LumoraWidgets */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = LumoraWidgets;
+			sourceTree = "<group>";
+		};
+		4C0000000000000000000013 /* LumoraTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = LumoraTests;
+			sourceTree = "<group>";
+		};
+		4C0000000000000000000014 /* LumoraUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = LumoraUITests;
+			sourceTree = "<group>";
+		};
+		5D0100000000000000000002 /* LumoraShieldMonitor */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = LumoraShieldMonitor;
+			sourceTree = "<group>";
+		};
+		5D0200000000000000000002 /* LumoraShieldConfiguration */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = LumoraShieldConfiguration;
+			sourceTree = "<group>";
+		};
+		5D0300000000000000000002 /* LumoraShieldAction */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = LumoraShieldAction;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C0000000000000000000051 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E0100000000000000000001 /* RevenueCat in Frameworks */,
+				7E0200000000000000000001 /* FirebaseCore in Frameworks */,
+				7E0200000000000000000005 /* FirebaseAnalyticsCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C0000000000000000000055 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C0000000000000000000058 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C000000000000000000005B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D0100000000000000000004 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D0200000000000000000004 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D0300000000000000000004 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A44B5CCB64723CCBBF6B5A39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0ADF2ABF6580BEC19254EBCE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D8C7DDDAAD86B3BB3017E4B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				50E6A76BAC06F2B0A3AE2D16 /* watchOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4C0000000000000000000002 = {
+			isa = PBXGroup;
+			children = (
+				4C0000000000000000000010 /* Lumora */,
+				4C0000000000000000000011 /* Shared */,
+				4C0000000000000000000012 /* LumoraWidgets */,
+				5D0300000000000000000002 /* LumoraShieldAction */,
+				5D0200000000000000000002 /* LumoraShieldConfiguration */,
+				5D0100000000000000000002 /* LumoraShieldMonitor */,
+				4C0000000000000000000013 /* LumoraTests */,
+				4C0000000000000000000014 /* LumoraUITests */,
+				4C0000000000000000000015 /* Config */,
+				4C0000000000000000000003 /* Products */,
+				3D8C7DDDAAD86B3BB3017E4B /* Frameworks */,
+				DC57776A8CA3FDBB0CE660F4 /* LumoraWatch */,
+			);
+			sourceTree = "<group>";
+		};
+		4C0000000000000000000003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C0000000000000000000020 /* Lumora.app */,
+				4C0000000000000000000021 /* LumoraWidgetsExtension.appex */,
+				5D0300000000000000000001 /* LumoraShieldAction.appex */,
+				5D0200000000000000000001 /* LumoraShieldConfiguration.appex */,
+				5D0100000000000000000001 /* LumoraShieldMonitor.appex */,
+				4C0000000000000000000022 /* LumoraTests.xctest */,
+				4C0000000000000000000023 /* LumoraUITests.xctest */,
+				7C415618FCAC02FA66C567D2 /* LumoraWatch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C0000000000000000000015 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				4C0000000000000000000030 /* Lumora-Info.plist */,
+				4C0000000000000000000031 /* LumoraWidgets-Info.plist */,
+				4C0000000000000000000032 /* Lumora.entitlements */,
+				4C0000000000000000000033 /* LumoraWidgets.entitlements */,
+				4C0000000000000000000034 /* Lumora.xcconfig */,
+				4C0000000000000000000035 /* Secrets.example.xcconfig */,
+				5D0000000000000000000014 /* LumoraShield.entitlements */,
+				5D0300000000000000000013 /* LumoraShieldAction-Info.plist */,
+				5D0200000000000000000013 /* LumoraShieldConfiguration-Info.plist */,
+				5D0100000000000000000013 /* LumoraShieldMonitor-Info.plist */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		50E6A76BAC06F2B0A3AE2D16 /* watchOS */ = {
+			isa = PBXGroup;
+			children = (
+				6FC80B6C3A9950133E113794 /* Foundation.framework */,
+			);
+			name = watchOS;
+			sourceTree = "<group>";
+		};
+		DC57776A8CA3FDBB0CE660F4 /* LumoraWatch */ = {
+			isa = PBXGroup;
+			children = (
+				16E09BA048BAE3C3395C94FA /* LumoraWatchApp.swift */,
+				01EECEA4884EF9A70E8F8EB5 /* WatchSession.swift */,
+				18AD089FE1E74B3E7BB25B53 /* WatchKeys.swift */,
+				33EB114AED90F41116F49EFF /* WatchViews.swift */,
+				879361EE822695ACD52D5C78 /* Assets.xcassets */,
+				C330410B958B97EA2082FC07 /* Localizable.xcstrings */,
+			);
+			path = LumoraWatch;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C0000000000000000000040 /* Lumora */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C0000000000000000000091 /* Build configuration list for PBXNativeTarget "Lumora" */;
+			buildPhases = (
+				4C0000000000000000000050 /* Sources */,
+				4C0000000000000000000051 /* Frameworks */,
+				4C0000000000000000000052 /* Resources */,
+				4C0000000000000000000053 /* Embed Foundation Extensions */,
+				4A601CEC6CD98AD111FFE985 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C0000000000000000000080 /* PBXTargetDependency */,
+				2BD5899E369B42EC3A5BB276 /* PBXTargetDependency */,
+				5D0300000000000000000011 /* PBXTargetDependency */,
+				5D0200000000000000000011 /* PBXTargetDependency */,
+				5D0100000000000000000011 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				4C0000000000000000000010 /* Lumora */,
+				4C0000000000000000000011 /* Shared */,
+			);
+			name = Lumora;
+			packageProductDependencies = (
+				7E0100000000000000000002 /* RevenueCat */,
+				7E0200000000000000000002 /* FirebaseCore */,
+				7E0200000000000000000004 /* FirebaseAnalyticsCore */,
+			);
+			productName = Lumora;
+			productReference = 4C0000000000000000000020 /* Lumora.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4C0000000000000000000041 /* LumoraWidgetsExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C0000000000000000000092 /* Build configuration list for PBXNativeTarget "LumoraWidgetsExtension" */;
+			buildPhases = (
+				4C0000000000000000000054 /* Sources */,
+				4C0000000000000000000055 /* Frameworks */,
+				4C0000000000000000000056 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				4C0000000000000000000011 /* Shared */,
+				4C0000000000000000000012 /* LumoraWidgets */,
+			);
+			name = LumoraWidgetsExtension;
+			productName = LumoraWidgetsExtension;
+			productReference = 4C0000000000000000000021 /* LumoraWidgetsExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		4C0000000000000000000042 /* LumoraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C0000000000000000000093 /* Build configuration list for PBXNativeTarget "LumoraTests" */;
+			buildPhases = (
+				4C0000000000000000000057 /* Sources */,
+				4C0000000000000000000058 /* Frameworks */,
+				4C0000000000000000000059 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C0000000000000000000081 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				4C0000000000000000000013 /* LumoraTests */,
+			);
+			name = LumoraTests;
+			productName = LumoraTests;
+			productReference = 4C0000000000000000000022 /* LumoraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4C0000000000000000000043 /* LumoraUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C0000000000000000000094 /* Build configuration list for PBXNativeTarget "LumoraUITests" */;
+			buildPhases = (
+				4C000000000000000000005A /* Sources */,
+				4C000000000000000000005B /* Frameworks */,
+				4C000000000000000000005C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C0000000000000000000082 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				4C0000000000000000000014 /* LumoraUITests */,
+			);
+			name = LumoraUITests;
+			productName = LumoraUITests;
+			productReference = 4C0000000000000000000023 /* LumoraUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		589064B5E742B22B23EB0DAD /* LumoraWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94CB6EB8CF6AAA6EBE81D67C /* Build configuration list for PBXNativeTarget "LumoraWatch" */;
+			buildPhases = (
+				8AD7C2EE2E1C7FE4E3C38F42 /* Sources */,
+				A44B5CCB64723CCBBF6B5A39 /* Frameworks */,
+				9DEAAEA6838BAF6EBDF19AAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LumoraWatch;
+			productName = LumoraWatch;
+			productReference = 7C415618FCAC02FA66C567D2 /* LumoraWatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5D0100000000000000000006 /* LumoraShieldMonitor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D0100000000000000000007 /* Build configuration list for PBXNativeTarget "LumoraShieldMonitor" */;
+			buildPhases = (
+				5D0100000000000000000003 /* Sources */,
+				5D0100000000000000000004 /* Frameworks */,
+				5D0100000000000000000005 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				5D0100000000000000000002 /* LumoraShieldMonitor */,
+			);
+			name = LumoraShieldMonitor;
+			productName = LumoraShieldMonitor;
+			productReference = 5D0100000000000000000001 /* LumoraShieldMonitor.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		5D0200000000000000000006 /* LumoraShieldConfiguration */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D0200000000000000000007 /* Build configuration list for PBXNativeTarget "LumoraShieldConfiguration" */;
+			buildPhases = (
+				5D0200000000000000000003 /* Sources */,
+				5D0200000000000000000004 /* Frameworks */,
+				5D0200000000000000000005 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				5D0200000000000000000002 /* LumoraShieldConfiguration */,
+			);
+			name = LumoraShieldConfiguration;
+			productName = LumoraShieldConfiguration;
+			productReference = 5D0200000000000000000001 /* LumoraShieldConfiguration.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		5D0300000000000000000006 /* LumoraShieldAction */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D0300000000000000000007 /* Build configuration list for PBXNativeTarget "LumoraShieldAction" */;
+			buildPhases = (
+				5D0300000000000000000003 /* Sources */,
+				5D0300000000000000000004 /* Frameworks */,
+				5D0300000000000000000005 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				5D0300000000000000000002 /* LumoraShieldAction */,
+			);
+			name = LumoraShieldAction;
+			productName = LumoraShieldAction;
+			productReference = 5D0300000000000000000001 /* LumoraShieldAction.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C0000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2700;
+				LastUpgradeCheck = 2710;
+				TargetAttributes = {
+					4C0000000000000000000040 = {
+						CreatedOnToolsVersion = 27.0;
+					};
+					4C0000000000000000000041 = {
+						CreatedOnToolsVersion = 27.0;
+					};
+					4C0000000000000000000042 = {
+						CreatedOnToolsVersion = 27.0;
+						TestTargetID = 4C0000000000000000000040;
+					};
+					4C0000000000000000000043 = {
+						CreatedOnToolsVersion = 27.0;
+						TestTargetID = 4C0000000000000000000040;
+					};
+				};
+			};
+			buildConfigurationList = 4C0000000000000000000090 /* Build configuration list for PBXProject "Lumora" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				tr,
+				ar,
+				de,
+				fr,
+				es,
+				it,
+				"pt-BR",
+				ru,
+				ja,
+				ko,
+				"zh-Hans",
+				th,
+				Base,
+			);
+			mainGroup = 4C0000000000000000000002;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				7E0100000000000000000003 /* XCRemoteSwiftPackageReference "purchases-ios-spm" */,
+				7E0200000000000000000003 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 4C0000000000000000000003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C0000000000000000000040 /* Lumora */,
+				4C0000000000000000000041 /* LumoraWidgetsExtension */,
+				4C0000000000000000000042 /* LumoraTests */,
+				4C0000000000000000000043 /* LumoraUITests */,
+				589064B5E742B22B23EB0DAD /* LumoraWatch */,
+				5D0100000000000000000006 /* LumoraShieldMonitor */,
+				5D0200000000000000000006 /* LumoraShieldConfiguration */,
+				5D0300000000000000000006 /* LumoraShieldAction */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C0000000000000000000052 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C0000000000000000000056 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C0000000000000000000059 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C000000000000000000005C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D0100000000000000000005 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D0200000000000000000005 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D0300000000000000000005 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DEAAEA6838BAF6EBDF19AAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93C0188FD7C6380CDBA68F70 /* Assets.xcassets in Resources */,
+				CA13ACC8556B5F8A85A42D25 /* Localizable.xcstrings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C0000000000000000000050 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C0000000000000000000054 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C0000000000000000000057 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C000000000000000000005A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D0100000000000000000003 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D0200000000000000000003 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D0300000000000000000003 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AD7C2EE2E1C7FE4E3C38F42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0BFA57E4CD790FC9E594A93 /* LumoraWatchApp.swift in Sources */,
+				CBB9F435293F7685FD832315 /* WatchSession.swift in Sources */,
+				9DD1E7077CD7BD3543D8AC7F /* WatchKeys.swift in Sources */,
+				042824C18036A41CF45A9681 /* WatchViews.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2BD5899E369B42EC3A5BB276 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LumoraWatch;
+			target = 589064B5E742B22B23EB0DAD /* LumoraWatch */;
+			targetProxy = 8E6CD6D2C3152AD4A237DA17 /* PBXContainerItemProxy */;
+		};
+		4C0000000000000000000080 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C0000000000000000000041 /* LumoraWidgetsExtension */;
+			targetProxy = 4C0000000000000000000070 /* PBXContainerItemProxy */;
+		};
+		4C0000000000000000000081 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C0000000000000000000040 /* Lumora */;
+			targetProxy = 4C0000000000000000000071 /* PBXContainerItemProxy */;
+		};
+		4C0000000000000000000082 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C0000000000000000000040 /* Lumora */;
+			targetProxy = 4C0000000000000000000072 /* PBXContainerItemProxy */;
+		};
+		5D0100000000000000000011 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5D0100000000000000000006 /* LumoraShieldMonitor */;
+			targetProxy = 5D0100000000000000000010 /* PBXContainerItemProxy */;
+		};
+		5D0200000000000000000011 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5D0200000000000000000006 /* LumoraShieldConfiguration */;
+			targetProxy = 5D0200000000000000000010 /* PBXContainerItemProxy */;
+		};
+		5D0300000000000000000011 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5D0300000000000000000006 /* LumoraShieldAction */;
+			targetProxy = 5D0300000000000000000010 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4C00000000000000000000A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = N8227QGH4G;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		4C00000000000000000000A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = N8227QGH4G;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 6.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C00000000000000000000A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C0000000000000000000034 /* Lumora.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Config/Lumora.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Config/Lumora-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Orbi;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobapptech.lumora;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4C00000000000000000000A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C0000000000000000000034 /* Lumora.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Config/Lumora.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Config/Lumora-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Orbi;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobapptech.lumora;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4C00000000000000000000A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Config/LumoraWidgets.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Config/LumoraWidgets-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Orbi;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobapptech.lumora.widgets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) WIDGET_EXTENSION";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4C00000000000000000000A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Config/LumoraWidgets.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Config/LumoraWidgets-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Orbi;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobapptech.lumora.widgets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) WIDGET_EXTENSION";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4C00000000000000000000A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobapptech.lumora.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lumora.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Lumora";
+			};
+			name = Debug;
+		};
+		4C00000000000000000000A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobapptech.lumora.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lumora.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Lumora";
+			};
+			name = Release;
+		};
+		4C00000000000000000000A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobapptech.lumora.uitests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Lumora;
+			};
+			name = Debug;
+		};
+		4C00000000000000000000A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobapptech.lumora.uitests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Lumora;
+			};
+			name = Release;
+		};
+		5B62105A4198B96F423FE3BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Orbi;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.mobapptech.lumora;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = NO;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobapptech.lumora.watchkitapp;
+				PRODUCT_NAME = LumoraWatch;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		5D0100000000000000000008 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Config/LumoraShield.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Config/LumoraShieldMonitor-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Orbi;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mobapptech.lumora.shield-monitor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5D0100000000000000000009 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Config/LumoraShield.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Config/LumoraShieldMonitor-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Orbi;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mobapptech.lumora.shield-monitor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5D0200000000000000000008 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Config/LumoraShield.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Config/LumoraShieldConfiguration-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Orbi;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mobapptech.lumora.shield-configuration";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5D0200000000000000000009 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Config/LumoraShield.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Config/LumoraShieldConfiguration-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Orbi;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mobapptech.lumora.shield-configuration";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5D0300000000000000000008 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Config/LumoraShield.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Config/LumoraShieldAction-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Orbi;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mobapptech.lumora.shield-action";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5D0300000000000000000009 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Config/LumoraShield.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Config/LumoraShieldAction-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Orbi;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mobapptech.lumora.shield-action";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D4CA992B0CFB0755B27ABA52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Orbi;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.mobapptech.lumora;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = NO;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobapptech.lumora.watchkitapp;
+				PRODUCT_NAME = LumoraWatch;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C0000000000000000000090 /* Build configuration list for PBXProject "Lumora" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C00000000000000000000A0 /* Debug */,
+				4C00000000000000000000A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C0000000000000000000091 /* Build configuration list for PBXNativeTarget "Lumora" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C00000000000000000000A2 /* Debug */,
+				4C00000000000000000000A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C0000000000000000000092 /* Build configuration list for PBXNativeTarget "LumoraWidgetsExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C00000000000000000000A4 /* Debug */,
+				4C00000000000000000000A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C0000000000000000000093 /* Build configuration list for PBXNativeTarget "LumoraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C00000000000000000000A6 /* Debug */,
+				4C00000000000000000000A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C0000000000000000000094 /* Build configuration list for PBXNativeTarget "LumoraUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C00000000000000000000A8 /* Debug */,
+				4C00000000000000000000A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D0100000000000000000007 /* Build configuration list for PBXNativeTarget "LumoraShieldMonitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D0100000000000000000008 /* Debug */,
+				5D0100000000000000000009 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D0200000000000000000007 /* Build configuration list for PBXNativeTarget "LumoraShieldConfiguration" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D0200000000000000000008 /* Debug */,
+				5D0200000000000000000009 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D0300000000000000000007 /* Build configuration list for PBXNativeTarget "LumoraShieldAction" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D0300000000000000000008 /* Debug */,
+				5D0300000000000000000009 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94CB6EB8CF6AAA6EBE81D67C /* Build configuration list for PBXNativeTarget "LumoraWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B62105A4198B96F423FE3BB /* Release */,
+				D4CA992B0CFB0755B27ABA52 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7E0100000000000000000003 /* XCRemoteSwiftPackageReference "purchases-ios-spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/RevenueCat/purchases-ios-spm.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		7E0200000000000000000003 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 13.1.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7E0100000000000000000002 /* RevenueCat */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7E0100000000000000000003 /* XCRemoteSwiftPackageReference "purchases-ios-spm" */;
+			productName = RevenueCat;
+		};
+		7E0200000000000000000002 /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7E0200000000000000000003 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		7E0200000000000000000004 /* FirebaseAnalyticsCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7E0200000000000000000003 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsCore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 4C0000000000000000000001 /* Project object */;
+}

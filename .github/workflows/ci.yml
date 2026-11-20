@@ -1,0 +1,74 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  test:
+    name: Build and unit tests
+    runs-on: macos-26
+    timeout-minutes: 60
+    steps:
+      - name: Check out
+        uses: actions/checkout@v4
+
+      - name: Select the newest stable Xcode
+        uses: maxim-lobanov/setup-xcode@v1
+        with:
+          xcode-version: latest-stable
+
+      - name: Cache Swift packages
+        uses: actions/cache@v4
+        with:
+          path: .build/SourcePackages
+          key: spm-${{ runner.os }}-${{ hashFiles('Lumora.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/Package.resolved') }}
+          restore-keys: spm-${{ runner.os }}-
+
+      - name: Pick an iPhone simulator
+        id: simulator
+        run: |
+          udid=$(xcrun simctl list devices available --json | python3 -c '
+          import json, re, sys
+          devices = json.load(sys.stdin)["devices"]
+          def version(runtime):
+              found = re.search(r"\.iOS-(\d+)-(\d+)", runtime)
+              return tuple(map(int, found.groups())) if found else None
+          phones = [(re.fullmatch(r"iPhone \d+( Pro)?", d["name"]) is not None, version(runtime), d["udid"])
+                    for runtime, ds in devices.items() if version(runtime)
+                    for d in ds if d["name"].startswith("iPhone")]
+          # A numbered model ("iPhone 17", "iPhone 17 Pro") first, then the newest iOS.
+          if phones:
+              print(max(phones)[2])
+          ')
+          test -n "$udid" || { echo "No iPhone simulator found"; exit 1; }
+          echo "udid=$udid" >> "$GITHUB_OUTPUT"
+
+      - name: Build and run unit tests
+        run: |
+          set -o pipefail
+          xcodebuild test \
+            -project Lumora.xcodeproj \
+            -scheme Lumora \
+            -destination "id=${{ steps.simulator.outputs.udid }}" \
+            -clonedSourcePackagesDirPath .build/SourcePackages \
+            -only-testing:LumoraTests \
+            -skipPackagePluginValidation \
+            -skipMacroValidation \
+            -resultBundlePath TestResults.xcresult
+
+      - name: Upload test results
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: TestResults
+          path: TestResults.xcresult

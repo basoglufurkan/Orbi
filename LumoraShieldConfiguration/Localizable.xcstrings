@@ -1,0 +1,386 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "Back to focus" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Odağa dön"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zurück zum Fokus"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Retour à la concentration"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Volver a concentrarme"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Torna alla concentrazione"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Voltar ao foco"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Вернуться к фокусу"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "العودة إلى التركيز"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "กลับไปโฟกัส"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "集中に戻る"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "집중으로 돌아가기"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "回到专注"
+          }
+        }
+      }
+    },
+    "Pell is keeping %@ quiet until %@. Your star is still forming." : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pell, %1$@ uygulamasını %2$@ saatine kadar sessiz tutuyor. Yıldızın hâlâ oluşuyor."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pell hält %1$@ bis %2$@ still. Dein Stern entsteht noch."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pell garde %1$@ au calme jusqu'à %2$@. Ton étoile est encore en train de naître."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pell mantiene %1$@ en silencio hasta las %2$@. Tu estrella aún se está formando."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pell tiene %1$@ in silenzio fino alle %2$@. La tua stella si sta ancora formando."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "O Pell está deixando %1$@ em silêncio até %2$@. Sua estrela ainda está se formando."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пелл держит %1$@ в тишине до %2$@. Твоя звезда ещё рождается."
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "يُبقي بيل %1$@ هادئًا حتى %2$@. نجمك ما زال يتشكّل."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เพลล์กำลังทำให้ %1$@ เงียบไว้จนถึง %2$@ ดาวของคุณยังก่อตัวอยู่"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ペルが%2$@まで%1$@を静かにしているよ。きみの星はまだ生まれている途中。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "펠이 %2$@까지 %1$@을(를) 조용히 해 둘게요. 당신의 별이 아직 만들어지는 중이에요."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pell 会让 %1$@ 安静到 %2$@。你的星星还在诞生。"
+          }
+        }
+      }
+    },
+    "Pell is keeping %@ quiet until your session ends. Your star is still forming." : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pell, seansın bitene kadar %@ uygulamasını sessiz tutuyor. Yıldızın hâlâ oluşuyor."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pell hält %@ still, bis deine Sitzung endet. Dein Stern entsteht noch."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pell garde %@ au calme jusqu'à la fin de ta séance. Ton étoile est encore en train de naître."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pell mantiene %@ en silencio hasta que termine tu sesión. Tu estrella aún se está formando."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pell tiene %@ in silenzio fino alla fine della sessione. La tua stella si sta ancora formando."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "O Pell está deixando %@ em silêncio até sua sessão terminar. Sua estrela ainda está se formando."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пелл держит %@ в тишине до конца сессии. Твоя звезда ещё рождается."
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "يُبقي بيل %@ هادئًا حتى تنتهي جلستك. نجمك ما زال يتشكّل."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เพลล์กำลังทำให้ %@ เงียบไว้จนกว่าเซสชันจะจบ ดาวของคุณยังก่อตัวอยู่"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "セッションが終わるまで、ペルが%@を静かにしているよ。きみの星はまだ生まれている途中。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "세션이 끝날 때까지 펠이 %@을(를) 조용히 해 둘게요. 당신의 별이 아직 만들어지는 중이에요."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pell 会让 %@ 保持安静，直到这次专注结束。你的星星还在诞生。"
+          }
+        }
+      }
+    },
+    "This app" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bu uygulama"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Diese App"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cette app"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Esta app"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Questa app"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Este app"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Это приложение"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "هذا التطبيق"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "แอปนี้"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "このアプリ"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "이 앱"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "此应用"
+          }
+        }
+      }
+    },
+    "You're focusing" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Odaklanıyorsun"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du bist im Fokus"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Concentration en cours"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Concentración en curso"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Concentrazione in corso"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Você está focando"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Идёт фокус"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أنت في وضع التركيز"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "คุณกำลังโฟกัส"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "いま集中中"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "집중하는 중이에요"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "你正在专注"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

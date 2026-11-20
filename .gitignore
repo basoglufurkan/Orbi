@@ -1,0 +1,26 @@
+# Xcode
+xcuserdata/
+*.xcuserstate
+DerivedData/
+build/
+*.xcresult
+.build/
+.swiftpm/
+
+# macOS
+.DS_Store
+
+# Service keys and configuration (see README › Configuration)
+Config/Secrets.xcconfig
+Lumora/Resources/GoogleService-Info.plist
+
+# Local Claude Code settings
+.claude/settings.local.json
+
+# Marketing screen recordings (large; regenerate with Marketing/Capture/capture.sh)
+Marketing/Captures/
+
+# App Store and marketing production files, kept outside the repository
+AppStore/
+appshot/
+Marketing/Video-Senaryolari.md

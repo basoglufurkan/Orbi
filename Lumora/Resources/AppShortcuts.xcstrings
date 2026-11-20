@@ -1,0 +1,625 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "End my focus in ${applicationName}" : {
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringSet" : {
+            "state" : "translated",
+            "values" : [
+              "أنهِ تركيزي في ${applicationName}",
+              "أوقف التركيز في ${applicationName}"
+            ]
+          }
+        },
+        "de" : {
+          "stringSet" : {
+            "state" : "translated",
+            "values" : [
+              "Beende meinen Fokus in ${applicationName}",
+              "Fokus in ${applicationName} beenden"
+            ]
+          }
+        },
+        "en" : {
+          "stringSet" : {
+            "state" : "new",
+            "values" : [
+              "End my focus in ${applicationName}",
+              "Stop focusing in ${applicationName}"
+            ]
+          }
+        },
+        "es" : {
+          "stringSet" : {
+            "state" : "translated",
+            "values" : [
+              "Termina mi enfoque en ${applicationName}",
+              "Termina el enfoque en ${applicationName}"
+            ]
+          }
+        },
+        "fr" : {
+          "stringSet" : {
+            "state" : "translated",
+            "values" : [
+              "Termine ma séance dans ${applicationName}",
+              "Arrête de me concentrer dans ${applicationName}"
+            ]
+          }
+        },
+        "it" : {
+          "stringSet" : {
+            "state" : "translated",
+            "values" : [
+              "Termina la mia sessione in ${applicationName}",
+              "Smetti di concentrarti con ${applicationName}"
+            ]
+          }
+        },
+        "ja" : {
+          "stringSet" : {
+            "state" : "translated",
+            "values" : [
+              "${applicationName}で集中を終了",
+              "${applicationName}の集中を終える"
+            ]
+          }
+        },
+        "ko" : {
+          "stringSet" : {
+            "state" : "translated",
+            "values" : [
+              "${applicationName}에서 집중 종료",
+              "${applicationName} 집중 끝내기"
+            ]
+          }
+        },
+        "pt-BR" : {
+          "stringSet" : {
+            "state" : "translated",
+            "values" : [
+              "Encerrar meu foco no ${applicationName}",
+              "Parar de focar no ${applicationName}"
+            ]
+          }
+        },
+        "ru" : {
+          "stringSet" : {
+            "state" : "translated",
+            "values" : [
+              "Заверши фокус в ${applicationName}",
+              "Останови фокус в ${applicationName}"
+            ]
+          }
+        },
+        "th" : {
+          "stringSet" : {
+            "state" : "translated",
+            "values" : [
+              "จบโฟกัสใน ${applicationName}",
+              "หยุดโฟกัสใน ${applicationName}"
+            ]
+          }
+        },
+        "tr" : {
+          "stringSet" : {
+            "state" : "translated",
+            "values" : [
+              "${applicationName} odağımı bitir",
+              "${applicationName} ile odaklanmayı bırak"
+            ]
+          }
+        },
+        "zh-Hans" : {
+          "stringSet" : {
+            "state" : "translated",
+            "values" : [
+              "在${applicationName}中结束专注",
+              "用${applicationName}停止专注"
+            ]
+          }
+        }
+      }
+    },
+    "Pause my focus in ${applicationName}" : {
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringSet" : {
+            "state" : "translated",
+            "values" : [
+              "أوقف تركيزي مؤقتًا في ${applicationName}",
+              "أوقف ${applicationName} مؤقتًا"
+            ]
+          }
+        },
+        "de" : {
+          "stringSet" : {
+            "state" : "translated",
+            "values" : [
+              "Pausiere meinen Fokus in ${applicationName}",
+              "${applicationName} pausieren"
+            ]
+          }
+        },
+        "en" : {
+          "stringSet" : {
+            "state" : "new",
+            "values" : [
+              "Pause my focus in ${applicationName}",
+              "Pause ${applicationName}"
+            ]
+          }
+        },
+        "es" : {
+          "stringSet" : {
+            "state" : "translated",
+            "values" : [
+              "Pausa mi enfoque en ${applicationName}",
+              "Pausa ${applicationName}"
+            ]
+          }
+        },
+        "fr" : {
+          "stringSet" : {
+            "state" : "translated",
+            "values" : [
+              "Mets ma séance en pause dans ${applicationName}",
+              "Mets ${applicationName} en pause"
+            ]
+          }
+        },
+        "it" : {
+          "stringSet" : {
+            "state" : "translated",
+            "values" : [
+              "Metti in pausa la sessione in ${applicationName}",
+              "Metti in pausa ${applicationName}"
+            ]
+          }
+        },
+        "ja" : {
+          "stringSet" : {
+            "state" : "translated",
+            "values" : [
+              "${applicationName}で集中を一時停止",
+              "${applicationName}を一時停止"
+            ]
+          }
+        },
+        "ko" : {
+          "stringSet" : {
+            "state" : "translated",
+            "values" : [
+              "${applicationName}에서 집중 일시 정지",
+              "${applicationName} 일시 정지"
+            ]
+          }
+        },
+        "pt-BR" : {
+          "stringSet" : {
+            "state" : "translated",
+            "values" : [
+              "Pausar meu foco no ${applicationName}",
+              "Pausar o ${applicationName}"
+            ]
+          }
+        },
+        "ru" : {
+          "stringSet" : {
+            "state" : "translated",
+            "values" : [
+              "Приостанови фокус в ${applicationName}",
+              "Пауза в ${applicationName}"
+            ]
+          }
+        },
+        "th" : {
+          "stringSet" : {
+            "state" : "translated",
+            "values" : [
+              "หยุดโฟกัสชั่วคราวใน ${applicationName}",
+              "พัก ${applicationName} ไว้ก่อน"
+            ]
+          }
+        },
+        "tr" : {
+          "stringSet" : {
+            "state" : "translated",
+            "values" : [
+              "${applicationName} odağımı duraklat",
+              "${applicationName} uygulamasını duraklat"
+            ]
+          }
+        },
+        "zh-Hans" : {
+          "stringSet" : {
+            "state" : "translated",
+            "values" : [
+              "在${applicationName}中暂停专注",
+              "暂停${applicationName}"
+            ]
+          }
+        }
+      }
+    },
+    "Resume my focus in ${applicationName}" : {
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringSet" : {
+            "state" : "translated",
+            "values" : [
+              "استأنف تركيزي في ${applicationName}",
+              "استأنف ${applicationName}"
+            ]
+          }
+        },
+        "de" : {
+          "stringSet" : {
+            "state" : "translated",
+            "values" : [
+              "Setze meinen Fokus in ${applicationName} fort",
+              "${applicationName} fortsetzen"
+            ]
+          }
+        },
+        "en" : {
+          "stringSet" : {
+            "state" : "new",
+            "values" : [
+              "Resume my focus in ${applicationName}",
+              "Resume ${applicationName}"
+            ]
+          }
+        },
+        "es" : {
+          "stringSet" : {
+            "state" : "translated",
+            "values" : [
+              "Reanuda mi enfoque en ${applicationName}",
+              "Reanuda ${applicationName}"
+            ]
+          }
+        },
+        "fr" : {
+          "stringSet" : {
+            "state" : "translated",
+            "values" : [
+              "Reprends ma séance dans ${applicationName}",
+              "Reprends ${applicationName}"
+            ]
+          }
+        },
+        "it" : {
+          "stringSet" : {
+            "state" : "translated",
+            "values" : [
+              "Riprendi la sessione in ${applicationName}",
+              "Riprendi ${applicationName}"
+            ]
+          }
+        },
+        "ja" : {
+          "stringSet" : {
+            "state" : "translated",
+            "values" : [
+              "${applicationName}で集中を再開",
+              "${applicationName}を再開"
+            ]
+          }
+        },
+        "ko" : {
+          "stringSet" : {
+            "state" : "translated",
+            "values" : [
+              "${applicationName}에서 집중 재개",
+              "${applicationName} 재개"
+            ]
+          }
+        },
+        "pt-BR" : {
+          "stringSet" : {
+            "state" : "translated",
+            "values" : [
+              "Retomar meu foco no ${applicationName}",
+              "Retomar o ${applicationName}"
+            ]
+          }
+        },
+        "ru" : {
+          "stringSet" : {
+            "state" : "translated",
+            "values" : [
+              "Продолжи фокус в ${applicationName}",
+              "Сними паузу в ${applicationName}"
+            ]
+          }
+        },
+        "th" : {
+          "stringSet" : {
+            "state" : "translated",
+            "values" : [
+              "โฟกัสต่อใน ${applicationName}",
+              "ทำต่อใน ${applicationName}"
+            ]
+          }
+        },
+        "tr" : {
+          "stringSet" : {
+            "state" : "translated",
+            "values" : [
+              "${applicationName} odağımı sürdür",
+              "${applicationName} uygulamasını sürdür"
+            ]
+          }
+        },
+        "zh-Hans" : {
+          "stringSet" : {
+            "state" : "translated",
+            "values" : [
+              "在${applicationName}中继续专注",
+              "继续${applicationName}"
+            ]
+          }
+        }
+      }
+    },
+    "Start a ${length} focus in ${applicationName}" : {
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringSet" : {
+            "state" : "translated",
+            "values" : [
+              "ابدأ تركيزًا لمدة ${length} في ${applicationName}",
+              "ركّز لمدة ${length} في ${applicationName}"
+            ]
+          }
+        },
+        "de" : {
+          "stringSet" : {
+            "state" : "translated",
+            "values" : [
+              "Starte einen Fokus für ${length} in ${applicationName}",
+              "Fokus für ${length} mit ${applicationName}"
+            ]
+          }
+        },
+        "en" : {
+          "stringSet" : {
+            "state" : "new",
+            "values" : [
+              "Start a ${length} focus in ${applicationName}",
+              "Focus for ${length} in ${applicationName}"
+            ]
+          }
+        },
+        "es" : {
+          "stringSet" : {
+            "state" : "translated",
+            "values" : [
+              "Inicia un enfoque de ${length} en ${applicationName}",
+              "Quiero concentrarme ${length} con ${applicationName}"
+            ]
+          }
+        },
+        "fr" : {
+          "stringSet" : {
+            "state" : "translated",
+            "values" : [
+              "Lance ${length} de concentration dans ${applicationName}",
+              "Démarre ${length} de concentration avec ${applicationName}"
+            ]
+          }
+        },
+        "it" : {
+          "stringSet" : {
+            "state" : "translated",
+            "values" : [
+              "Avvia una sessione di ${length} in ${applicationName}",
+              "Concentrati per ${length} con ${applicationName}"
+            ]
+          }
+        },
+        "ja" : {
+          "stringSet" : {
+            "state" : "translated",
+            "values" : [
+              "${applicationName}で${length}の集中を開始",
+              "${applicationName}で${length}集中する"
+            ]
+          }
+        },
+        "ko" : {
+          "stringSet" : {
+            "state" : "translated",
+            "values" : [
+              "${applicationName}에서 ${length} 집중 시작",
+              "${applicationName}에서 ${length} 동안 집중하기"
+            ]
+          }
+        },
+        "pt-BR" : {
+          "stringSet" : {
+            "state" : "translated",
+            "values" : [
+              "Iniciar um foco de ${length} no ${applicationName}",
+              "Focar por ${length} no ${applicationName}"
+            ]
+          }
+        },
+        "ru" : {
+          "stringSet" : {
+            "state" : "translated",
+            "values" : [
+              "Начни фокус на ${length} в ${applicationName}",
+              "Фокус на ${length} в ${applicationName}"
+            ]
+          }
+        },
+        "th" : {
+          "stringSet" : {
+            "state" : "translated",
+            "values" : [
+              "เริ่มโฟกัส ${length} ใน ${applicationName}",
+              "โฟกัส ${length} ด้วย ${applicationName}"
+            ]
+          }
+        },
+        "tr" : {
+          "stringSet" : {
+            "state" : "translated",
+            "values" : [
+              "${applicationName} ile ${length} odak başlat",
+              "${applicationName} ile ${length} odaklan"
+            ]
+          }
+        },
+        "zh-Hans" : {
+          "stringSet" : {
+            "state" : "translated",
+            "values" : [
+              "在${applicationName}中开始${length}专注",
+              "用${applicationName}专注${length}"
+            ]
+          }
+        }
+      }
+    },
+    "Start a focus in ${applicationName}" : {
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringSet" : {
+            "state" : "translated",
+            "values" : [
+              "ابدأ التركيز في ${applicationName}",
+              "ركّز مع ${applicationName}",
+              "ابدأ تركيز ${category} في ${applicationName}"
+            ]
+          }
+        },
+        "de" : {
+          "stringSet" : {
+            "state" : "translated",
+            "values" : [
+              "Starte einen Fokus in ${applicationName}",
+              "Starte einen ${category}-Fokus in ${applicationName}"
+            ]
+          }
+        },
+        "en" : {
+          "stringSet" : {
+            "state" : "new",
+            "values" : [
+              "Start a focus in ${applicationName}",
+              "Start focusing in ${applicationName}",
+              "Start a ${category} focus in ${applicationName}",
+              "Focus with ${applicationName}"
+            ]
+          }
+        },
+        "es" : {
+          "stringSet" : {
+            "state" : "translated",
+            "values" : [
+              "Inicia un enfoque en ${applicationName}",
+              "Inicia un enfoque de ${category} en ${applicationName}"
+            ]
+          }
+        },
+        "fr" : {
+          "stringSet" : {
+            "state" : "translated",
+            "values" : [
+              "Lance une séance dans ${applicationName}",
+              "Lance une séance ${category} dans ${applicationName}"
+            ]
+          }
+        },
+        "it" : {
+          "stringSet" : {
+            "state" : "translated",
+            "values" : [
+              "Avvia una sessione in ${applicationName}",
+              "Avvia una sessione di ${category} in ${applicationName}"
+            ]
+          }
+        },
+        "ja" : {
+          "stringSet" : {
+            "state" : "translated",
+            "values" : [
+              "${applicationName}で集中を開始",
+              "${applicationName}で${category}の集中を開始"
+            ]
+          }
+        },
+        "ko" : {
+          "stringSet" : {
+            "state" : "translated",
+            "values" : [
+              "${applicationName}에서 집중 시작",
+              "${applicationName}에서 ${category} 집중 시작"
+            ]
+          }
+        },
+        "pt-BR" : {
+          "stringSet" : {
+            "state" : "translated",
+            "values" : [
+              "Iniciar um foco no ${applicationName}",
+              "Começar a focar no ${applicationName}",
+              "Iniciar um foco de ${category} no ${applicationName}",
+              "Focar com o ${applicationName}"
+            ]
+          }
+        },
+        "ru" : {
+          "stringSet" : {
+            "state" : "translated",
+            "values" : [
+              "Начни фокус в ${applicationName}",
+              "Запусти фокус в ${applicationName}",
+              "Начни фокус «${category}» в ${applicationName}",
+              "Сосредоточься с ${applicationName}"
+            ]
+          }
+        },
+        "th" : {
+          "stringSet" : {
+            "state" : "translated",
+            "values" : [
+              "เริ่มโฟกัสใน ${applicationName}",
+              "เริ่มโฟกัส${category}ใน ${applicationName}"
+            ]
+          }
+        },
+        "tr" : {
+          "stringSet" : {
+            "state" : "translated",
+            "values" : [
+              "${applicationName} ile odaklanmaya başla",
+              "${applicationName} ile odak başlat",
+              "${applicationName} ile ${category} odağı başlat",
+              "${applicationName} ile odaklan"
+            ]
+          }
+        },
+        "zh-Hans" : {
+          "stringSet" : {
+            "state" : "translated",
+            "values" : [
+              "在${applicationName}中开始专注",
+              "在${applicationName}中开始${category}专注"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.3"
+}

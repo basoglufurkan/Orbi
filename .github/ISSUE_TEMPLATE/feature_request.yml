@@ -1,0 +1,20 @@
+name: Feature request
+description: Suggest an idea for Orbi.
+labels: [enhancement]
+body:
+  - type: textarea
+    id: need
+    attributes:
+      label: What would you like to do?
+      description: The moment or the problem this would help with.
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: Your idea
+      description: How you picture it working.
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: What you do today instead
