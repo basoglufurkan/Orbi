@@ -1,0 +1,114 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "CFBundleDisplayName" : {
+      "comment" : "Bundle display name",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Orbi"
+          }
+        }
+      }
+    },
+    "CFBundleName" : {
+      "comment" : "Bundle name",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Lumora"
+          }
+        }
+      }
+    },
+    "NSAlarmKitUsageDescription" : {
+      "comment" : "Privacy - AlarmKit Usage Description",
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "يُطلق Orbi منبّهًا عند بدء فترة خطّطت لها، وفقط للفترات التي تختار ذلك لها."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Orbi lässt einen Alarm klingeln, wenn ein geplanter Block beginnt – nur bei Blöcken, für die du das möchtest."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Orbi rings an alarm when a block you planned begins, only for blocks you ask it to."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Orbi hace sonar una alarma cuando empieza un bloque que planificaste, solo en los bloques que tú elijas."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Orbi fait sonner une alarme quand un bloc que tu as prévu commence, uniquement pour les blocs que tu choisis."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Orbi fa suonare una sveglia quando inizia un blocco che hai pianificato, solo per i blocchi che scegli tu."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Orbiは、計画したブロックが始まるときにアラームを鳴らします。鳴らすのは、あなたが指定したブロックだけです。"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Orbi는 계획한 블록이 시작될 때 알람을 울려요. 알람을 요청한 블록에서만 울려요."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "O Orbi toca um alarme quando começa um bloco que você planejou, só nos blocos em que você pedir."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Orbi включает будильник, когда начинается запланированный блок, — только для тех блоков, где ты это выберешь."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Orbi จะส่งเสียงปลุกเมื่อบล็อกที่คุณวางแผนไว้เริ่มต้น เฉพาะบล็อกที่คุณขอไว้เท่านั้น"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Orbi, planladığın bir blok başladığında alarm çalar; yalnızca istediğin bloklar için."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Orbi 会在你计划的时间块开始时响起闹钟，仅限你要求响铃的时间块。"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}
